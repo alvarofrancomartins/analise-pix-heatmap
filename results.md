@@ -15,10 +15,10 @@ reais por dia contra 103,5 bilhões num dia útil.
 ![Mapa de calor do valor de Pix por dia em 2025](output/pix_daily_heatmap_value_2025.png)
 
 A explicação está no valor de cada transação. No fim de semana o valor médio por
-transação despenca de 504 para 139 reais. As pessoas seguem mandando Pix de
-valor pequeno, mas as empresas, que movem o dinheiro grande, param.
+transação despenca de 504 para 139 reais. Isso pode ser porque as empresas, que
+movem o dinheiro grande, operam menos no fim de semana, ou porque as pessoas
+gastam menos quando não vão trabalhar.
 
 Essa diferença vem mudando. A queda de quantidade no fim de semana era de 36% em
 2021 e caiu para 13% em 2025: o Pix virou rotina de todo dia. A queda de valor,
-porém, permanece entre 75% e 79% desde 2021. Pessoas e varejo não param no fim
-de semana; o fluxo corporativo, sim.
+porém, permanece entre 75% e 79% desde 2021.
