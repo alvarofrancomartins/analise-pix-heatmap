@@ -58,8 +58,8 @@ if metric == "value":
 else:
     vals = sub["Quantidade"]
     div = 1e6
-    noun = "quantidade (milhões de operações)"
-    lo, hi = "menos transações", "mais transações"
+    noun = "quantidade (milhões de Pix)"
+    lo, hi = "menos Pix", "mais Pix"
     fname = f"pix_daily_heatmap_{YEAR}.png"
 
 matrix = np.full((31, 12), np.nan)
@@ -108,8 +108,8 @@ label_y = grad_bottom - 0.005
 fig.text(bbox.x0, label_y, lo, ha="left", va="top", fontsize=16)
 fig.text(bbox.x1, label_y, hi, ha="right", va="top", fontsize=16)
 
-fig.suptitle(f"Pix liquidados no SPI\npor dia em {YEAR}: {noun}",
-             fontsize=20, y=0.96, fontweight="bold")
+fig.suptitle(f"Pix por dia em {YEAR}: {noun}",
+             fontsize=20, fontweight="bold", y=0.92)
 
 out_path = HERE / "output" / fname
 out_path.parent.mkdir(parents=True, exist_ok=True)
