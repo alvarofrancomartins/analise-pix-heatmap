@@ -4,6 +4,8 @@ Mapa de calor (heatmap) com o número (ou o valor) de Pix por dia, um para
 cada ano: cada célula é um dia do ano (eixo X = mês, eixo Y = dia do mês),
 colorida pela quantidade ou pelo valor.
 
+![Mapa de calor do valor de Pix por dia em 2025](output/pix_daily_heatmap_value_2025.png)
+
 ## O que gera
 
 Em `output/`:
@@ -25,8 +27,7 @@ python daily_heatmap.py 2025 value # valor (R$)
 limpeza). Colunas: `Data, Quantidade, CanalPrimario, CanalSecundario, Total,
 Media`.
 
-Observação de unidade: a coluna `Total` vem em **milhares de R$** e o script
-multiplica por 1000 para exibir em R$.
+Observação de unidade: a coluna `Total` vem em **milhares de reais** e o script multiplica por 1000 para exibir em reais.
 
 Os números são do Pix liquidado entre instituições diferentes (não incluem as
 transferências dentro do mesmo banco).
